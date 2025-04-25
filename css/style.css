@@ -200,6 +200,9 @@ ul {
     gap: 10px;
     font-size: 1rem;
   }
+  .servicos-texto h1::after {
+    display: none;
+  }
 
   .servicos-texto ul li img {
     width: 20px;
@@ -231,18 +234,6 @@ ul {
   .servicos-texto ul li img {
     width: 18px;
   }
-
-  .servicos-texto h1::after {
-    content: '';
-    position: absolute;
-    width: 52px;
-    height: 10px;
-    top: 10%;
-    left: 24px;
-    transform: rotate(-35deg);
-    background-color: #8EA716;
-    z-index: -1;
-  }
 }
 
 @media (max-width: 400px) {
@@ -258,10 +249,4 @@ ul {
     font-size: 0.9rem;
   }
 
-  .servicos-texto h1::after {
-    width: 45px;
-    height: 9px;
-    top: 12%;
-    left: 20px;
-  }
 }

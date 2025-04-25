@@ -2,6 +2,9 @@
 @import "./intro.css";
 @import "./DIFERENCIAIS.css";
 @import "./servicos.css";
+@import "./precos.css";
+
+
 
 body {
   font-family: 'Poppins', sans-serif;

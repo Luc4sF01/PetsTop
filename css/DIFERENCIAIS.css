@@ -10,8 +10,8 @@
     to bottom,
     #edf0dc 0%,
     #edf0dc 50%,
-    #632ca9 50%,
-    #632ca9 100%
+    #6f3cb3 50%,
+    #6f3cb3 100%
   );
 }
 .experiencia .box {
@@ -52,3 +52,4 @@
 .experiencia .box p:nth-child(even) {
   color: #e4dcee;
 }
+

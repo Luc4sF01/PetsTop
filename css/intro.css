@@ -1,0 +1,40 @@
+.main{
+  background: linear-gradient(to right, #EDF0DC 1%, #EEF0E8 100%);
+}
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+.intro-texto h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #8EA716;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-family: Poppins;
+}
+.intro-texto h1 span {
+  color: #551B9E;
+  font-family: Poppins;
+
+}
+
+.intro-texto p {
+  font-size: 1.25rem;
+  color: #5C7000;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 500px;
+  padding-top: 60px;
+  font-family: Poppins;
+
+}
+
+.intro-img{
+  width: 649px;
+  height: 671px;
+}

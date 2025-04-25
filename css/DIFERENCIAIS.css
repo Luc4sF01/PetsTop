@@ -1,0 +1,54 @@
+.experiencia {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  z-index: 1;
+}
+
+.experiencia-bg {
+  background: linear-gradient(
+    to bottom,
+    #edf0dc 0%,
+    #edf0dc 50%,
+    #632ca9 50%,
+    #632ca9 100%
+  );
+}
+.experiencia .box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 1px 0 white;
+}
+.experiencia p {
+  color: #dfe3cc;
+  font-size: 16px;
+  font-family: poppins;
+  align-self: center;
+  font-weight: bold;
+}
+
+.experiencia .box:nth-child(even) {
+  background: #8ea716;
+}
+.experiencia .box:nth-child(odd) {
+  background: #632ca9;
+}
+.experiencia .box:first-child {
+  box-shadow: -1px 0 0 white, 0 1px 0 white;
+}
+
+.experiencia .box:last-child {
+  box-shadow: 1px 0 0 white, 0 1px 0 white;
+}
+
+.experiencia .box img {
+  margin: 15px 0 14px 10px;
+}
+.experiencia .box p {
+  margin: 15px 15px 15px 12px;
+}
+
+.experiencia .box p:nth-child(even) {
+  color: #e4dcee;
+}

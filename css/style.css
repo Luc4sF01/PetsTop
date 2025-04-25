@@ -1,0 +1,40 @@
+@import "./header.css";
+@import "./intro.css";
+@import "./DIFERENCIAIS.css";
+@import "./servicos.css";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 , h2 , h3 , p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px; 
+  list-style: none; 
+}

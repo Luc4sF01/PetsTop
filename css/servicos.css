@@ -1,0 +1,9 @@
+.servicos{
+  background: linear-gradient(to right, #632CA9 1%, #271143 100%);
+}
+.servicos-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 125px;
+  padding-top: 140px;
+}

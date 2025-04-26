@@ -23,6 +23,21 @@
 
 }
 
+.intro-texto a{
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #8EA716;
+  color: #EAEED9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
 .intro-texto p {
   font-size: 1.25rem;
   color: #5C7000;

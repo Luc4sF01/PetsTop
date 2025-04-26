@@ -1,7 +1,7 @@
 
 .footer-bg {
-  background-color: #23034d;        /* púrpura escuro */
-  color: #E1E0E3;                  /* texto claro */
+  background-color: #23034d;       
+  color: #E1E0E3;                 
   font-family: 'Poppins', sans-serif;
   padding: 40px 20px 20px;
 }
@@ -28,7 +28,7 @@
 .footer-block h4 {
   font-size: 20px;
   margin-bottom: 12px;
-  color: #8EA716;                  /* verde destaque */
+  color: #8EA716;                  
 }
 
 .footer-menu {
@@ -63,8 +63,30 @@
   width: 20px;
   height: auto;
 }
+.footer-credito {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #E1E0E3;
+  border-top: 1px solid #8EA716;
+}
 
-/* rodapé interno responsivo */
+.footer-credito h4 {
+  font-size: 16px;
+  color: #8EA716;
+  margin-bottom: 8px;
+}
+
+.footer-credito a {
+  color: #8EA716;
+  text-decoration: underline;
+}
+
+.footer-credito a:hover {
+  color: #c5d88d;
+}
+
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;

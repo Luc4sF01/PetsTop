@@ -1,0 +1,174 @@
+/* ===== BASE CONTATO ===== */
+.contato-bg {
+  background: linear-gradient(to right, #EDF0DC 1%, #D7DDBB 100%);
+}
+
+.contato container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* cabeçalho */
+.contato-header {
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+.contato-header h1,
+.contato-header h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #8EA716;
+  font-weight: bold;
+}
+.contato-header h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+.contato-header h2 {
+  font-size: 56px;
+  margin-top: 40px;
+}
+
+/* botões de contato lado a lado */
+.contato-btns {
+  display: inline-flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.contato-btns a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #8EA716;
+  color: #EAEED9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* grid mapa + info */
+.contato-loja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-bottom: 80px;
+}
+.mapa img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* tudo que fica ao lado do mapa */
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* localização */
+.contato-localiza p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: #80912D;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+/* lista de motivos */
+.contato-texto h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: #80912D;
+  margin-bottom: 8px;
+}
+.contato-texto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #80912D;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* depoimento */
+.contato-comentario .quote {
+  font-family: 'Caveat', cursive;
+  font-style: italic;
+  font-size: 32px;
+  color: #8EA716;
+  margin: 0 0 8px;
+}
+.contato-comentario .autor {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #99A852;
+  margin: 0;
+}
+
+/* agendamento */
+.contato-agenda {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.contato-agenda h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  color: #8EA716;
+  margin-bottom: 24px;
+}
+.contato-agenda p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #8EA716;
+  margin-bottom: 16px;
+}
+.contato-agenda .agende {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #8EA716;
+  color: #EAEED9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 992px) {
+  .contato-loja {
+    grid-template-columns: 1fr;
+  }
+  .contato-header h1,
+  .contato-header h2,
+  .contato-agenda h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contato-header h1,
+  .contato-header h2,
+  .contato-agenda h2 {
+    font-size: 36px;
+  }
+  .contato-btns {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contato-loja {
+    gap: 24px;
+  }
+}
